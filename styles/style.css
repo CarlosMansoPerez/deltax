@@ -1,0 +1,33 @@
+.font-title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-text-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+  
+.font-text {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-img{
+  background-image: url("../img/bgImage.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+
+}
+
+
+@media (max-width: 1250px) {
+    .bg-img{
+        background-position: -300px 0px;
+    }
+  }
